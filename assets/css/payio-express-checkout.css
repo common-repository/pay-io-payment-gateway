@@ -1,0 +1,68 @@
+.payio-express-button-wrap {
+  margin: 20px 0 0 0;
+}
+.payio-express-button-mini-cart {
+  padding: 5px 20px;
+  margin: 0 0 0;
+}
+
+.payio-express-button {
+  margin-bottom: 15px;
+  background-color: #612775;
+  color: #ffffff;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+}
+.payio-express-button-mini-cart .payio-express-button{
+  margin-bottom: 5px;
+}
+.payio-express-button img {
+  display: block;
+  position: relative;
+  margin: auto;
+  max-width: 260px;
+  object-fit: contain;
+}
+.payio-express-button-mini-cart img {
+  max-width: 160px;
+  object-fit: contain;
+}
+.payio-express-desc {
+  margin-bottom: 15px;
+  font-size: small;
+  color: #612775;
+  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+}
+.payio-express-button-mini-cart .payio-express-desc {
+  font-size: 12px;
+  margin-bottom: 0;
+  line-height: 1;
+}
+.payio-loading {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 2;
+  cursor: default;
+}
+.payio-loading-spinner {
+  height: 30px;
+  width: 30px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -15px;
+  margin-top: -15px;
+  display: block;
+  background: url("../images/icons/loading-spinner.svg") center center;
+  background-size: cover;
+}
